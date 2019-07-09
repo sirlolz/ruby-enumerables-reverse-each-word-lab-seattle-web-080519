@@ -1,5 +1,3 @@
-tring = "hello there, how are you"
-
 def reverse_each_word(string)
   words = string.split(" ")
   new_sentance = []
@@ -12,7 +10,5 @@ def reverse_each_word(string)
     end
     new_sentance << new_string
   end
-  puts new_sentance.join(' ')
-  
+  new_sentance.join(' ')
 end
-reverse_each_word(tring)
